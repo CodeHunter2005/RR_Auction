@@ -1,0 +1,133 @@
+2026-11-18 23:25:40.268 Installed websockets 17.4 with uvicorn 0.49.0 can abort the /_stcore/stream handshake when a reverse proxy forwards non-ASCII headers. Upgrade uvicorn to >= 0.52.0, or, on websockets 16.1, upgrade websockets to >= 16.1.1 and < 17.
+2026-11-18 23:25:40.554 Uvicorn server started on 127.0.0.1:8501
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://127.0.0.1:8501
+
+2026-11-18 23:25:58.652 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\scriptrunner\exec_code.py:136 in exec_func_with_error_handling                 
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\scriptrunner\script_runner.py:936 in code_to_exec                              
+                                                                                        
+  c:\Users\PAWAN\Downloads\RR_contest_GPT\rr_auction_dashboard\app.py:347 in <module>   
+                                                                                        
+    344 │   │   )                                                                       
+    345 │                                                                               
+    346 │   st.markdown("### Current ranking snapshot")                                 
+  > 347 │   st.dataframe(ranking_table(filtered).head(10), use_container_width=True, h  
+    348 │                                                                               
+    349 │   st.markdown("### Pressure Leverage Index (PLI)")                            
+    350 │   st.caption(                                                                 
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\metrics_util.py:732 in wrapped_func                                            
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\e  
+  lements\arrow.py:1109 in dataframe                                                    
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyarrow\__i  
+  nit__.py:71 in <module>                                                               
+                                                                                        
+     68 │   except ImportError:                                                         
+     69 │   │   __version__ = None                                                      
+     70                                                                                 
+  >  71 from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_timezone_db  
+     72 │   │   │   │   │   │    MonthDayNano, VersionInfo, build_info, cpp_build_info  
+     73 │   │   │   │   │   │    cpp_version, cpp_version_info, runtime_info,           
+     74 │   │   │   │   │   │    cpu_count, set_cpu_count, enable_signal_handlers,      
+                                                                                        
+  in init pyarrow.lib:42                                                                
+────────────────────────────────────────────────────────────────────────────────────────
+ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
+2026-11-18 23:26:40.856 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\scriptrunner\exec_code.py:136 in exec_func_with_error_handling                 
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\scriptrunner\script_runner.py:936 in code_to_exec                              
+                                                                                        
+  c:\Users\PAWAN\Downloads\RR_contest_GPT\rr_auction_dashboard\app.py:347 in <module>   
+                                                                                        
+    344 │   │   )                                                                       
+    345 │                                                                               
+    346 │   st.markdown("### Current ranking snapshot")                                 
+  > 347 │   st.dataframe(ranking_table(filtered).head(10), use_container_width=True, h  
+    348 │                                                                               
+    349 │   st.markdown("### Pressure Leverage Index (PLI)")                            
+    350 │   st.caption(                                                                 
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\metrics_util.py:732 in wrapped_func                                            
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\e  
+  lements\arrow.py:1109 in dataframe                                                    
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyarrow\__i  
+  nit__.py:71 in <module>                                                               
+                                                                                        
+     68 │   except ImportError:                                                         
+     69 │   │   __version__ = None                                                      
+     70                                                                                 
+  >  71 from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_timezone_db  
+     72 │   │   │   │   │   │    MonthDayNano, VersionInfo, build_info, cpp_build_info  
+     73 │   │   │   │   │   │    cpp_version, cpp_version_info, runtime_info,           
+     74 │   │   │   │   │   │    cpu_count, set_cpu_count, enable_signal_handlers,      
+                                                                                        
+  in init pyarrow.lib:42                                                                
+────────────────────────────────────────────────────────────────────────────────────────
+ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
+2026-11-18 23:27:12.439 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\scriptrunner\exec_code.py:136 in exec_func_with_error_handling                 
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\scriptrunner\script_runner.py:936 in code_to_exec                              
+                                                                                        
+  c:\Users\PAWAN\Downloads\RR_contest_GPT\rr_auction_dashboard\app.py:347 in <module>   
+                                                                                        
+    344 │   │   )                                                                       
+    345 │                                                                               
+    346 │   st.markdown("### Current ranking snapshot")                                 
+  > 347 │   st.dataframe(ranking_table(filtered).head(10), use_container_width=True, h  
+    348 │                                                                               
+    349 │   st.markdown("### Pressure Leverage Index (PLI)")                            
+    350 │   st.caption(                                                                 
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\r  
+  untime\metrics_util.py:732 in wrapped_func                                            
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\streamlit\e  
+  lements\arrow.py:1109 in dataframe                                                    
+                                                                                        
+  c:\Users\PAWAN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyarrow\__i  
+  nit__.py:71 in <module>                                                               
+                                                                                        
+     68 │   except ImportError:                                                         
+     69 │   │   __version__ = None                                                      
+     70                                                                                 
+  >  71 from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_timezone_db  
+     72 │   │   │   │   │   │    MonthDayNano, VersionInfo, build_info, cpp_build_info  
+     73 │   │   │   │   │   │    cpp_version, cpp_version_info, runtime_info,           
+     74 │   │   │   │   │   │    cpu_count, set_cpu_count, enable_signal_handlers,      
+                                                                                        
+  in init pyarrow.lib:42                                                                
+────────────────────────────────────────────────────────────────────────────────────────
+ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
